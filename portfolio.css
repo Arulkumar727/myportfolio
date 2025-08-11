@@ -1,1 +1,207 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+}
 
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:black;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    text-align: right;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+nav ul  li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:white;
+}
+
+/* Section styling */
+section {
+    padding: 80px;
+    margin: 20px 0;
+    background-color: #fff;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+/* Headings */
+h1, h2 {
+    color: #000000;
+    text-align: center;
+}
+
+/* Home section */
+#home {
+    background-color:gray;
+    display: flex;
+
+}
+#home h1,p{
+    text-align: left
+
+}
+.img-content{
+    margin-left: 40%;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius:100px;
+    box-shadow: 0 4px 6px white;
+    
+    
+}
+ button{
+    border: 0 solid;
+    border-radius: 50px;
+    background-color:rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+    height: 45px;
+    width: 90px;
+    cursor: pointer;
+    
+   
+
+}
+button:hover{
+    background-color:rgb(0, 0, 0);  
+    color: white; 
+}
+
+/* About section */
+ #about {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    
+}
+#about span{
+    color: gray;
+}
+
+/* Education section */
+#education {
+    background-color: #fafafa;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.college ,.tweth,.tenth{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    height: 140px;
+    width:300px;
+    text-align: center;
+    /* padding: 20px; */
+    background-color:rgb(116, 103, 103);
+    color:white;
+    
+}
+/* Skills section */ 
+  #skills {
+    background-color: rgb(202, 202, 202);
+    
+} 
+.skil{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.front, .back, .db{
+    border: 2px ;
+    border-radius: 40px;
+    padding: 40px;
+    height: 80px;
+    width: 200px;
+    background-color:rgb(112, 112, 112);
+    color: rgb(255, 255, 255);
+    
+
+}
+
+
+
+/* Contact section */
+ #contact {
+    background-color: #f3f9ff;
+    
+ }
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 45vh;
+  padding: 20px;
+}
+
+/* Contact form style */
+.form-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+  text-align: center;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-section input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+footer{
+    background: black;;
+    color: white;
+    padding: 15px 0;
+}
+footer p{
+     text-align: center;
+}
